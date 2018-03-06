@@ -3,7 +3,6 @@ language: scala
 scala:
     - 2.10.7
     - 2.11.12
-    - 2.12.3
     - 2.12.4
 
 #jdk: 
@@ -14,10 +13,9 @@ scala:
 build:
   pre_ci_boot:
     image_name: drydock/u16scaall
-    image_tag: v6.1.4
+    image_tag: v6.2.4
     pull: true
     
   ci:
     - java -version
     - echo $SHIPPABLE_SCALA_VERSION
-    
