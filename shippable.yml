@@ -11,11 +11,7 @@ scala:
  # - oraclejdk8
     
 build:
-  pre_ci_boot:
-    image_name: drydock/u16scaall
-    image_tag: v6.2.4
-    pull: true
-    
+
   ci:
     - java -version
     - echo $SHIPPABLE_SCALA_VERSION
