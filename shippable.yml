@@ -15,3 +15,10 @@ build:
     - java -version
     - echo $SHIPPABLE_SCALA_VERSION
     - docker pull shippabledocker/sample_node_pvt:ecr
+    
+integrations:
+    
+  hub:
+ #Docker integration
+    - integrationName: ship-docker
+      type: dockerRegistryLogin
