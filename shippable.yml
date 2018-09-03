@@ -8,6 +8,8 @@ jdk:
   - openjdk7
   - oraclejdk7
   - oraclejdk8
+  - openjdk10
+  - oraclejdk10
     
 build:
 
